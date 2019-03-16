@@ -1,4 +1,3 @@
-import os
 import re
 import requests
 
@@ -10,7 +9,7 @@ tba_api_url = 'https://www.thebluealliance.com/api/v3/'
 # "terminal.integrated.env.windows": {
 #     "TBA_API_TOKEN": "GO TO TBA AND GET YOUR OWN TOKEN"
 # }
-tba_token = os.environ["TBA_API_TOKEN"]
+tba_token = 'PUT YOUR TOKEN IN HERE'
 headers = {
     'X-TBA-Auth-Key': tba_token
 }
